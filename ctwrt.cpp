@@ -47,7 +47,7 @@ void CTWRT::on_action_About_triggered()
     if (!ui->textEdit->isVisible()) {
         ui->textEdit->show();
     }
-    ui->textEdit->append(tr("Open Source"));
+    ui->textEdit->append(tr("Open Source \nLICENSE & more\nhttps://github.com/Conight/CPWRT"));
 }
 
 bool CTWRT::newFile() {
